@@ -11,3 +11,4 @@
 ## Setup
 1. in the Terminal or CMD, clone the repo ```https://github.com/filiptronicek/related-pics.git```
 2. Set the enviroment variables `COMPUTER_VISION_SUBSCRIPTION_KEY`, `COMPUTER_VISION_ENDPOINT` and `PIXABAY_API_KEY` with ```setx COMPUTER_VISION_SUBSCRIPTION_KEY "your-key"```
+3. start the script with `python main.py`
