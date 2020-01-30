@@ -5,8 +5,8 @@
 *the Azure code is from [here](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts-sdk/python-sdk)*
 
 ## Before you start
-* make sure you have git installed (download git)[https://git-scm.com/]
-* make sure you have python installed (download it)[https://www.python.org/downloads/] (this requires Python 3.0 or higher)
+* make sure you have git installed [download git](https://git-scm.com/)
+* make sure you have python installed [download it](https://www.python.org/downloads/) (this requires Python 3.0 or higher)
 
 ## Setup
 1. in the Terminal or CMD, clone the repo ```https://github.com/filiptronicek/related-pics.git```
