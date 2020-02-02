@@ -23,8 +23,10 @@
 4. Fill in the details and select the free pricing tier (you also can select the S1 tier, but for our purposes, the free one will be enough).
 <img src="https://files.catbox.moe/g68die.jpeg" alt="search bar" width="700"/>
 5. Then just hit the Create button and now we're done creating the Cognitive service.
+
 ##### Getting the API key and the endpoint URL
 1. From the Azure Portal sidebar, go to "All resources"
+
 2. Then go to the resource you just created and select "Quick start"
 <img src="https://files.catbox.moe/04gbl1.jpeg" alt="search bar" width="700"/>
 
