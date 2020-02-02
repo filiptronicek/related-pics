@@ -7,7 +7,16 @@
 ## Before you start
 * make sure you have git installed [download git](https://git-scm.com/)
 * make sure you have python installed [download it](https://www.python.org/downloads/) (this requires Python 3.0 or higher)
+### Get your API keys
+#### Azure
+1. Go to the [Microsoft Azure portal](https://portal.azure.com/#home)
 
+![](https://files.catbox.moe/x3s2pk.jpeg)
+
+
+2. In the search bar search for computer vision
+
+![](https://files.catbox.moe/wmonds.jpeg)
 ## Setup
 1. In the Terminal or CMD, clone the repo with ```git clone https://github.com/filiptronicek/related-pics.git```
 2. Set the enviroment variables `COMPUTER_VISION_SUBSCRIPTION_KEY`, `COMPUTER_VISION_ENDPOINT` and `PIXABAY_API_KEY` with ```setx COMPUTER_VISION_SUBSCRIPTION_KEY "your-key"```
