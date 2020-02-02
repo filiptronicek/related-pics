@@ -6,7 +6,7 @@
 
 ## Before you start
 * make sure you have git installed [download git](https://git-scm.com/)
-* make sure you have python installed [download it](https://www.python.org/downloads/) (this requires Python 3.0 or higher)
+* make sure you have Python installed [download it](https://www.python.org/downloads/) (this requires Python 3.0 or higher)
 ### Get your API keys
 #### Azure
 
