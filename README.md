@@ -30,7 +30,7 @@
 2. Then go to the resource you just created and select "Quick start"
 <img src="https://files.catbox.moe/04gbl1.jpeg" alt="search bar" width="700"/>
 
-#### Azure
+#### Pixabay
 To get your Pixabay API key, go to the [API documentation page](https://pixabay.com/api/docs/) [requires sign-in first] and copy the code from the page
 ![get Pixabay API key](https://files.catbox.moe/5vwn1n.png)
 ## Setup
