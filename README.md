@@ -34,7 +34,7 @@
 To get your Pixabay API key, go to the [API documentation page](https://pixabay.com/api/docs/) [requires sign-in first] and copy the code from the page
 ![get Pixabay API key](https://files.catbox.moe/5vwn1n.png)
 ## Setup
-
-1. In the Terminal or CMD, clone the repo with ```git clone https://github.com/filiptronicek/related-pics.git```
-2. Set the environment variables `COMPUTER_VISION_SUBSCRIPTION_KEY`, `COMPUTER_VISION_ENDPOINT` and `PIXABAY_API_KEY` with ```setx COMPUTER_VISION_SUBSCRIPTION_KEY "your-key"```
-3. Start the script with `python main.py`
+1. install the dependencies ```pip install -r requirements.txt```
+2. In the Terminal or CMD, clone the repo with ```git clone https://github.com/filiptronicek/related-pics.git```
+3. Set the environment variables `COMPUTER_VISION_SUBSCRIPTION_KEY`, `COMPUTER_VISION_ENDPOINT` and `PIXABAY_API_KEY` with ```setx COMPUTER_VISION_SUBSCRIPTION_KEY "your-key"```
+4. Start the script with `python main.py`
