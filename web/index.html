@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Related pics</title>
 </head>
+<!-- Styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js defer"></script>
+<script src="js/script.js" defer></script>
 <body>
-    
+    <div id="app" class="center">
+        <h1>{{ message }}</h1>
+        <div class="row center">
+            <div class="col s6 offset-s3">
+        <form onsubmit="formAction(this);return false">
+            <input width="100%" type="text" v-model="imageInput" id="">
+        </form>
+        <img width="100%" :src="imageInput" alt="">
+    </div>
+        </div>
+    </div>
 </body>
 </html>
