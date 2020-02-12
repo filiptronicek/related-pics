@@ -1,7 +1,17 @@
 img {
-    max-height: 50vh;
-    max-width: 80vw;
+  max-height: 50vh;
+  max-width: 80vw;
 }
 #output {
-    font-size: 3rem;
+  font-size: 3rem;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    transition-duration: 200ms;
+    background: #202020;
+    color: white;
+  }
+  input {
+      color: whitesmoke;
+  }
 }
