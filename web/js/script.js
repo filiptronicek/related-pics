@@ -5,19 +5,27 @@ new Vue({
     imageInput: ""
   }
 });
+function output(data, output) {
+    const outputField = output ||'output';
+    const outPutFieldObject = document.getElementById(outputField);
+    outPutFieldObject.innerText = "That's " + data;
+}
+function computeData(data) {
+    console.log(JSON.parse(data));
+    output(JSON.parse(data).description.captions[0].text);
+}
+
 
 function getImageRawData(url) {
   //Option with catch
   fetch(`https://related-pics.herokuapp.com/?url=${url}`)
     //.then(async r => jsonApiResponce = JSON.parse(r.text()))
-    .then(async r => console.log(await r.text()))
+    .then(async r => computeData(await r.text()))
     .catch(e => console.error("Boo..." + e));
 
   //No fear...
   (async () => console.log(await await fetch(url)))();
 }
-
-//getImageRawData("https://images.pexels.com/photos/3683191/pexels-photo-3683191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 
 function formAction(data) {
   testImage(data.children[0].value).then(result => {
