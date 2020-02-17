@@ -5,6 +5,12 @@ img {
 #output {
   font-size: 3rem;
 }
+.gh-dark {
+  display: none;
+}
+.gh-light {
+  display: block;
+}
 @media (prefers-color-scheme: dark) {
   body {
     transition-duration: 200ms;
@@ -13,5 +19,11 @@ img {
   }
   input {
       color: whitesmoke;
+  }
+  .gh-dark {
+    display: block;
+  }
+  .gh-light {
+    display: none;
   }
 }
