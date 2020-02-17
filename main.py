@@ -26,6 +26,14 @@ else:
     print("\nSet the COMPUTER_VISION_ENDPOINT environment variable.\n**Restart your shell or IDE for changes to take effect.**")
     sys.exit()
 
+# Add your PixaBay API Key to your environment variables.
+if 'PIXABAY_API_KEY' in os.environ:
+    pixabay = os.environ['PIXABAY_API_KEY']
+else:
+    print("\nSet the PIXABAY_API_KEY environment variable.\n**Restart your shell or IDE for changes to take effect.**")
+    sys.exit()
+
+
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 remote_image_url = input("Your image URL: [defaults to "+random_pic_url+"]")
 if remote_image_url == "":
@@ -46,7 +54,7 @@ print("Searching for the tags:")
 if (len(tags_result_remote.tags) == 0):
     print("No tags detected.")
 else:
-    pixabayUrl = "https://pixabay.com/api/?key="+ os.environ['PIXABAY_API_KEY'] +"&q="
+    pixabayUrl = "https://pixabay.com/api/?key="+ pixabay +"&q="
 
     for i,tag in enumerate(tags_result_remote.tags):
         if i < int(percisionLvl):    
